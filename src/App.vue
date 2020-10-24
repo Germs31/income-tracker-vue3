@@ -1,11 +1,14 @@
 <template>
-  <h1>Hello World</h1>
+  <Header/>
 </template>
 
 <script>
-
+import Header from '@/components/Header'
 export default {
   name: 'App',
+  components: {
+    Header
+  }
 }
 </script>
 
@@ -14,7 +17,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Fira sans', sans-serif;
 }
 
 body {
